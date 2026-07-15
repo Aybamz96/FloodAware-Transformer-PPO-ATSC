@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: FloodAware-Transformer-PPO-ATSC
+message: If you use this software, please cite the associated paper.
+authors:
+  - family-names: Taiwo
+    given-names: Ayobami Abiodun
+repository-code: https://github.com/Aybamz96/FloodAware-Transformer-PPO-ATSC
+license: MIT
