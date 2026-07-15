@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewsettings>
+    <scheme name="real world">
+        <background backgroundColor="30,30,40" showGrid="0"/>
+        <edges laneShowBorders="1" showLinkRules="1"
+               showRails="0" hideConnectors="0"/>
+        <vehicles vehicleMode="8" vehicleQuality="2"
+                  minSize="4" exaggeration="5" showBlinker="1"/>
+        <junctions junctionMode="0" drawShape="1"/>
+    </scheme>
+    <viewport x="0" y="0" zoom="120"/>
+    <delay value="50"/>
+</viewsettings>
