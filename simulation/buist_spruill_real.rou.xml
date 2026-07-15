@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+
+    <vType id="car" vClass="passenger"
+           length="4.5" maxSpeed="50" accel="2.6" decel="4.5"
+           sigma="0.5" minGap="2.5"
+           speedFactor="normc(1,0.1,0.6,1.4)"/>
+    <vType id="truck" vClass="truck"
+           length="12.0" maxSpeed="30" accel="1.3" decel="3.5"
+           sigma="0.4" minGap="3.5"/>
+
+    <route id="r_EW_WB" edges="40969892#1"/>
+    <route id="r_EW_EB" edges="-40969892#1"/>
+    <route id="r_NS_SB" edges="1443664837#1"/>
+    <route id="r_NS_NB" edges="-1443664837#1"/>
+    <route id="r_NS_SB2" edges="12153855#7"/>
+    <route id="r_NS_NB2" edges="-12153855#7"/>
+
+    <flow id="f0" route="r_EW_WB" begin="0" end="1800" vehsPerHour="146" type="car" departLane="free" departSpeed="desired"/>
+    <flow id="f1" route="r_EW_WB" begin="0" end="7200" vehsPerHour="12" type="truck" departLane="free" departSpeed="desired"/>
+    <flow id="f2" route="r_EW_EB" begin="0" end="1800" vehsPerHour="141" type="car" departLane="free" departSpeed="desired"/>
+    <flow id="f3" route="r_EW_EB" begin="0" end="7200" vehsPerHour="11" type="truck" departLane="free" departSpeed="desired"/>
+    <flow id="f4" route="r_NS_SB" begin="0" end="1800" vehsPerHour="98" type="car" departLane="free" departSpeed="desired"/>
+    <flow id="f5" route="r_NS_SB" begin="0" end="7200" vehsPerHour="8" type="truck" departLane="free" departSpeed="desired"/>
+    <flow id="f6" route="r_NS_NB" begin="0" end="1800" vehsPerHour="94" type="car" departLane="free" departSpeed="desired"/>
+    <flow id="f7" route="r_NS_NB" begin="0" end="7200" vehsPerHour="8" type="truck" departLane="free" departSpeed="desired"/>
+    <flow id="f8" route="r_NS_SB2" begin="0" end="1800" vehsPerHour="43" type="car" departLane="free" departSpeed="desired"/>
+    <flow id="f9" route="r_NS_SB2" begin="0" end="7200" vehsPerHour="6" type="truck" departLane="free" departSpeed="desired"/>
+    <flow id="f10" route="r_NS_NB2" begin="0" end="1800" vehsPerHour="43" type="car" departLane="free" departSpeed="desired"/>
+    <flow id="f11" route="r_NS_NB2" begin="0" end="7200" vehsPerHour="6" type="truck" departLane="free" departSpeed="desired"/>
+    <flow id="f12" route="r_EW_WB" begin="1800" end="3600" vehsPerHour="146" type="car" departLane="free" departSpeed="desired"/>
+    <flow id="f13" route="r_EW_EB" begin="1800" end="3600" vehsPerHour="141" type="car" departLane="free" departSpeed="desired"/>
+    <flow id="f14" route="r_NS_SB" begin="1800" end="3600" vehsPerHour="98" type="car" departLane="free" departSpeed="desired"/>
+    <flow id="f15" route="r_NS_NB" begin="1800" end="3600" vehsPerHour="94" type="car" departLane="free" departSpeed="desired"/>
+    <flow id="f16" route="r_NS_SB2" begin="1800" end="3600" vehsPerHour="43" type="car" departLane="free" departSpeed="desired"/>
+    <flow id="f17" route="r_NS_NB2" begin="1800" end="3600" vehsPerHour="43" type="car" departLane="free" departSpeed="desired"/>
+    <flow id="f18" route="r_EW_WB" begin="3600" end="5400" vehsPerHour="110" type="car" departLane="free" departSpeed="desired"/>
+    <flow id="f19" route="r_EW_EB" begin="3600" end="5400" vehsPerHour="106" type="car" departLane="free" departSpeed="desired"/>
+    <flow id="f20" route="r_NS_SB" begin="3600" end="5400" vehsPerHour="74" type="car" departLane="free" departSpeed="desired"/>
+    <flow id="f21" route="r_NS_NB" begin="3600" end="5400" vehsPerHour="70" type="car" departLane="free" departSpeed="desired"/>
+    <flow id="f22" route="r_NS_SB2" begin="3600" end="5400" vehsPerHour="32" type="car" departLane="free" departSpeed="desired"/>
+    <flow id="f23" route="r_NS_NB2" begin="3600" end="5400" vehsPerHour="32" type="car" departLane="free" departSpeed="desired"/>
+    <flow id="f24" route="r_EW_WB" begin="5400" end="7200" vehsPerHour="95" type="car" departLane="free" departSpeed="desired"/>
+    <flow id="f25" route="r_EW_EB" begin="5400" end="7200" vehsPerHour="92" type="car" departLane="free" departSpeed="desired"/>
+    <flow id="f26" route="r_NS_SB" begin="5400" end="7200" vehsPerHour="64" type="car" departLane="free" departSpeed="desired"/>
+    <flow id="f27" route="r_NS_NB" begin="5400" end="7200" vehsPerHour="61" type="car" departLane="free" departSpeed="desired"/>
+    <flow id="f28" route="r_NS_SB2" begin="5400" end="7200" vehsPerHour="28" type="car" departLane="free" departSpeed="desired"/>
+    <flow id="f29" route="r_NS_NB2" begin="5400" end="7200" vehsPerHour="28" type="car" departLane="free" departSpeed="desired"/>
+
+</routes>

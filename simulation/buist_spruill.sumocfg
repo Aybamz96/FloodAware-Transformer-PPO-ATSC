@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <input>
+        <net-file    value="buist_spruill.net.xml"/>
+        <route-files value="routes.xml"/>
+    </input>
+    <time>
+        <begin       value="0"/>
+        <end         value="3600"/>
+        <step-length value="1.0"/>
+    </time>
+    <processing>
+        <ignore-route-errors value="true"/>
+        <time-to-teleport    value="300"/>
+        <max-num-vehicles    value="2000"/>
+    </processing>
+    <report>
+        <verbose     value="false"/>
+        <no-step-log value="true"/>
+    </report>
+    <random>
+        <seed value="42"/>
+    </random>
+</configuration>
